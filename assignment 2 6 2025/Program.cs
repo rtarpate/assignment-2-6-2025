@@ -47,7 +47,10 @@ namespace assignment_2_6_2025
 
             foreach (int number in numbers)
             {
-                Console.WriteLine(number);
+                if (IsEven(number))
+                {
+                    Console.WriteLine(number);
+                }
             }
 
             Console.ReadLine();
